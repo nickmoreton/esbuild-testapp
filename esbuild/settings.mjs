@@ -1,3 +1,5 @@
+import { sassPlugin } from "esbuild-sass-plugin";
+
 export function getSettings(options) {
   return {
     entryPoints: ["src/index.js"],
@@ -7,6 +9,9 @@ export function getSettings(options) {
       ".html": "text",
       ".png": "file",
     },
+    plugins: [
+      sassPlugin(),
+    ],
     outdir: "dist",
     ...options,
   };

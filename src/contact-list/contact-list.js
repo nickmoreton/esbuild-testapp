@@ -1,7 +1,7 @@
 import contacts from "./data";
 import { each } from "underscore";
 import template from "./contact-list.html";
-import "./contact-list.css";
+import "./contact-list.scss";
 
 const contactList = document.createElement("div");
 

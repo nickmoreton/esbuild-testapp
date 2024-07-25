@@ -1,0 +1,14 @@
+.header {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header .app-name {
+    margin-left: 1em;
+  }
+  
+  .header .add-icon {
+    margin-left: auto;
+  }

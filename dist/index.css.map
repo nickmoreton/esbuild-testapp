@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/header/header.css", "../src/contact-list/contact-list.css", "../src/style.css"],
+  "sourcesContent": [".header {\n    padding: 1em;\n    display: flex;\n    align-items: center;\n    border-bottom: 1px solid #ccc;\n  }\n  \n  .header .app-name {\n    margin-left: 1em;\n  }\n  \n  .header .add-icon {\n    margin-left: auto;\n  }\n", ".contact-list {\n    padding: 1em;\n  }\n  \n  .contact-list .contact {\n    background-color: #eee;\n    border-radius: 0.5em;\n    padding: 1em;\n    margin-bottom: 1em;\n  }\n", "@import url(\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\");\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  margin: 0;\n}\n\n\n\n\n"],
+  "mappings": ";;;AAAA,CAAC;AACG,WAAS;AACT,WAAS;AACT,eAAa;AACb,iBAAe,IAAI,MAAM;AAC3B;AAEA,CAPD,OAOS,CAAC;AACP,eAAa;AACf;AAEA,CAXD,OAWS,CAAC;AACP,eAAa;AACf;;;ACbF,CAAC;AACG,WAAS;AACX;AAEA,CAJD,aAIe,CAAC;AACb,oBAAkB;AAClB,iBAAe;AACf,WAAS;AACT,iBAAe;AACjB;;;ACPF;AACE,eAAa,QAAQ,EAAE;AACvB,UAAQ;AACV;",
+  "names": []
+}
